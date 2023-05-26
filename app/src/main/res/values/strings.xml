@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Recall : Contact Backup &amp; Restore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_notification_channel_id">starboard_notification_channel_id</string>
+    <string name="default_notification_channel_name">starboard_notification_channel</string>
+
+    <!-- Home -->
+    <string name="re">Re</string>
+    <string name="call">call</string>
+    <string name="easy">Easy</string>
+    <string name="contact_backup">Contact backup</string>
+    <string name="and">&amp;</string>
+    <string name="restore">Restore</string>
+    <string name="restore_again">Restore Again</string>
+    <string name="please_wait">Restoring contact\'s, please wait…</string>
+    <string name="app">app</string>
+    <string name="main_txt">A simple, lightning fast and easy one click backup / restore of your phone contact\'s to any device anytime, anywhere."</string>
+    <string name="upload_con">Upload Contacts</string>
+    <string name="restore_con">Restore Contacts</string>
+    <string name="a_prod_of">A Product of</string>
+    <string name="backed_up_txt">backed up</string>
+    <string name="generating_file">Generating contact file…</string>
+    <string name="excp_upload">Encrypting contact\'s and uploading…</string>
+    <string name="share_contact_file">Share Contact Backup File…</string>
+    <string name="share_contact_via">Share via…</string>
+    <string name="backup_not_found">Contact Backup File not found in "Downloads" folder of your device. Backup your contact again!!</string>
+    <string name="whatsapp_not_found">Whatsapp not installed on device.</string>
+    <string name="restored_txt">restored</string>
+    <string name="code_txt">Please input last 4 digit unique code from backup URL.</string>
+    <string name="restore_success">All contacts restored on this phone successfully.</string>
+    <string name="permission_need">Please allow storage permissions, so "RECALL" can access your contact backup file.</string>
+    <string name="permission_need_final">Please allow storage permissions in settings, so "RECALL" can access your contact backup file.</string>
+
+    <string name="backup">Backup</string>
+    <string name="terms">Terms &amp; Condition</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="visit">Visit Website</string>
+    <string name="made_in">Made in </string>
+    <string name="success">Success</string>
+    <string name="press_back_to_exit">Press back again to exit</string>
+    <string name="backup_result_txt">Tap on whatsapp icon to send this link to restoring device or Just copy below code &amp; paste in the device where you wish to restore your contacts!!</string>
+    <string name="or">OR</string>
+    <string name="share">Share</string>
+    <string name="upload_contact">Upload your contact file by clicking below :</string>
+    <string name="upload">Upload</string>
+    <string name="restore_contact">Restore Contacts</string>
+    <string name="restoring">Restoring contacts</string>
+    <string name="backing_up">Backing up contacts</string>
+    <string name="backed_up">Lokesh Badolia (1 /196) backed up</string>
+    <string name="created">Lokesh Badolia (1 /196) created</string>
+    <string name="prev_backup">Previous Backup</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="ask_again">Ask Again</string>
+    <string name="setting">Setting</string>
+    <string name="code_hint">XXXX</string>
+    <string name="cont">Continue</string>
+    <string name="warning">Warning!!</string>
+    <string name="error">Error</string>
+    <string name="restore_contact_txt2">Are you sure, you want to restore contacts on this device?</string>
+    <string name="permission_needed">Permission Needed!!</string>
+    <string name="backup_permission_13">RECALL requires contacts permission to backup your contacts. \nPlease allow them in settings.</string>
+    <string name="backup_permission">RECALL requires contacts &amp; storage permissions to backup your contacts. \nPlease allow them in settings.</string>
+    <string name="restore_permission_13">RECALL requires contacts permission to restore your contacts. \nPlease allow them in settings.</string>
+    <string name="restore_permission">RECALL requires contacts &amp; storage permissions to restore your contacts. \nPlease allow them in settings.</string>
+    <string name="permission_needed_master">Please provide access of your contact permissions, so we can read and store contact backup of your device.</string>
+    <string name="restore_success_head">Restore Success!!</string>
+    <string name="restore_success_txt">Thank You for using RECALL. \nAll contacts are restored on this phone successfully. \nWe require your support, please rate us on play-store.</string>
+    <string name="link">https://recall.codexcollab.com/restore/</string>
+    <string name="file_name">contact_backup.txt</string>
+    <string name="paste_code">Paste your 4 digit code below :</string>
+    <string name="offline">You are offline</string>
+    <string name="no_net">No Internet</string>
+    <string name="net_require">RECALL requires an active internet connection to work.</string>
+    <string name="restore_below">Restore all your contact by pressing below :</string>
+    <string name="backup_result_txt_2">Share this contact file over email / social channels in the restoring device.</string>
+    <string name="backup_success">Contact Backup Success</string>
+    <string name="backup_error">Backup failed due to unknown reason, Try later!!</string>
+    <string name="restore_error">Cannot restore contact due to unknown reason, Try later!!</string>
+    <string name="link_error">Not an valid authorised backup link, Try again!!</string>
+    <string name="no_con">No contact\'s found on this device for backing up.</string>
+    <string name="link_no_data_error">Contact backup not found associated with this link, try restore using contact file.</string>
+    <string name="file_not_found_error">Contact backup file not found in download folder. \nMake sure "contact_backup.txt" file exist in your "Phone Storage -> Download" folder.</string>
+    <string name="whatsapp_share">"Thank you for using RECALL \nSteps to restore your contacts : \n1. Install RECALL app on other device. \n2. Click on below Link. \n3. Tap on confirm button and done!! \nYour Contact Backup ->"</string>
+    <string name="confirm_restore_again">You have already restored your contact\'s on this device. Restoring again will result in duplicate contact\'s. \nAre you sure, you wish to restore?</string>
+    <string name="title_activity_deep_link_handle">DeepLinkHandleActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

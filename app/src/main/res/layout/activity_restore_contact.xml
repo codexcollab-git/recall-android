@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.restore.view.RestoreContactActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/color_pop_red"
+            android:id="@+id/offline_ribbion"
+            android:visibility="gone"
+            android:paddingVertical="@dimen/_4sdp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="0dp"
+                android:fontFamily="@font/open_sans_regular"
+                android:layout_centerInParent="true"
+                android:text="@string/offline"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_9ssp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@id/offline_ribbion"
+            android:id="@+id/header_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|bottom"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_15sdp">
+
+            <ImageView
+                android:id="@+id/back_btn"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/ripple_anim_circle"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/ic_back"
+                app:tint="@color/color_pop_primary" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_below="@id/back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="0dp"
+                android:fontFamily="@font/bebas_bold"
+                android:paddingHorizontal="@dimen/_30sdp"
+                android:text="@string/restore_contact"
+                android:textColor="@color/color_pop_secondary"
+                android:textSize="@dimen/_31ssp" />
+
+            <RelativeLayout
+                android:layout_below="@id/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/tab_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    app:cardElevation="@dimen/_15sdp">
+
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tablayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:tabIndicatorColor="@color/color_pop_secondary"
+                        app:tabTextColor="@color/color_pop_primary" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewPager"
+                    android:fitsSystemWindows="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/tab_card" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

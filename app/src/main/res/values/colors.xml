@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#00b4ff</color>
+    <color name="color_primary_light">#22252a</color>
+    <color name="color_grey_light">#7b7e83</color>
+    <color name="color_primary_dark">#1f2327</color>
+    <color name="color_primary_dark_2">#66696f</color>
+
+    <color name="grey_off_dark">#62656c</color>
+    <color name="grey_dark2">#7762656c</color>
+    <color name="grey_dark">#7743464c</color>
+    <color name="color_primary_varient">#3dd6aa</color>
+    <color name="grey_light">#a3abb3</color>
+    <color name="color_text_dark">#656c74</color>
+    <color name="black">#FF000000</color>
+    <color name="faded_white">#88FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="error_red">#d44e53</color>
+
+    <color name="color_primary_ripple">#0097ee</color>
+    <color name="color_primary_varient_ripple">#006c44</color>
+    <color name="background_grey">#e6e5e8</color>
+
+
+    <color name="color_pop_primary">#376aed</color>
+    <color name="color_pop_secondary">#22b07d</color>
+    <color name="color_text_light">#b3b9c0</color>
+    <color name="color_pop_extra">#f09f2b</color>
+    <color name="color_pop_red">#ef6871</color>
+    <color name="color_pop_dark">#0d243c</color>
+    <color name="color_pop_text_dark">#092139</color>
+    <color name="color_grey">#e5e7eb</color>
+</resources>

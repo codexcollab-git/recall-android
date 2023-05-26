@@ -1,0 +1,117 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
+}
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.codexcollab.contactbackup"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    lint {
+        checkReleaseBuilds false
+        disable 'ContentDescription', 'Autofill', 'UseCompoundDrawables', 'NotifyDataSetChanged', 'RecyclerView', 'UnusedAttribute'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            def formattedDate = new Date().format('dd-MM-yyyy')
+            outputFileName = "ContactBackup-${variant.name}-${variant.versionName}-${formattedDate}.apk"
+        }
+    }
+}
+
+ext {
+    coroutine = "1.6.4"
+    ui_pixels = '1.0.6'
+    lifecycle = '2.5.1'
+    dagger = '2.42'
+    gson = '2.8.9'
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'androidx.fragment:fragment-ktx:1.5.5'
+
+    /** Coroutines */
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine"
+
+    /** Image Loader -> Coil-kt */
+    implementation 'io.coil-kt:coil:1.3.2'
+
+    /** UI Pixels */
+    implementation "com.intuit.sdp:sdp-android:$ui_pixels"
+    implementation "com.intuit.ssp:ssp-android:$ui_pixels"
+
+    /** Gson */
+    implementation "com.google.code.gson:gson:$gson"
+
+    /** ViewModel and LiveData */
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle"
+
+    /** Dependency Injection [Dagger 2] */
+    implementation "com.google.dagger:dagger:$dagger"
+    kapt "com.google.dagger:dagger-compiler:$dagger"
+    implementation "com.google.dagger:dagger-android:$dagger"
+    implementation "com.google.dagger:dagger-android-support:$dagger"
+    kapt "com.google.dagger:dagger-android-processor:$dagger"
+
+    /** Lottie Animation */
+    implementation 'com.airbnb.android:lottie:5.2.0'
+
+    /** Firebase Crashlytics */
+    implementation platform('com.google.firebase:firebase-bom:30.3.1')
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-dynamic-links-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-database-ktx'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-messaging-directboot:23.1.1'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+
+    /** Permissions */
+    implementation 'com.github.fondesa:kpermissions:3.4.0'
+
+    /** In App Review */
+    implementation 'com.google.android.play:core:1.10.3'
+    implementation 'com.google.android.play:core-ktx:1.8.1'
+}
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'

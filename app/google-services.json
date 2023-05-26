@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "245545860027",
+    "firebase_url": "https://easy-contact-backup-cxc-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "easy-contact-backup-cxc",
+    "storage_bucket": "easy-contact-backup-cxc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245545860027:android:472d9b18614e862b3f629e",
+        "android_client_info": {
+          "package_name": "com.codexcollab.contactbackup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245545860027-5hdqcn6ucl136461m45j4mofa8rupdb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJlb2gYjA7Ek5jEgAWdGM2-hGAwqkoaRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245545860027-5hdqcn6ucl136461m45j4mofa8rupdb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

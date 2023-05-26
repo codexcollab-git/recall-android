@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/custom_dialog_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/dialog_item_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:paddingVertical="@dimen/_15sdp"
+        android:paddingHorizontal="@dimen/_18sdp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:textColor="@color/color_pop_red"
+            android:fontFamily="@font/bebas_bold"
+            android:textSize="@dimen/_21ssp"
+            android:maxLines="1" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/sub_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:fontFamily="@font/open_sans_regular"
+            android:textColor="#092139"
+            android:textSize="@dimen/_12ssp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="match_parent"
+            android:paddingVertical="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:gravity="center"
+            android:background="@drawable/btn_ripple_full_blue"
+            android:fontFamily="@font/bebas_bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:paddingVertical="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:gravity="center"
+            android:fontFamily="@font/bebas_bold"
+            android:background="@drawable/bg_dialog_cancel_btn"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp" />
+    </LinearLayout>
+</LinearLayout>

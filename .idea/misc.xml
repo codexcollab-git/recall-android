@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/round_border.xml" value="0.1985" />
+        <entry key="app/src/main/res/drawable-v24/round_corner.xml" value="0.209" />
+        <entry key="app/src/main/res/drawable-v24/single_round_corner.xml" value="0.209" />
+        <entry key="app/src/main/res/drawable/bg_dialog_cancel_btn.xml" value="0.1985" />
+        <entry key="app/src/main/res/drawable/bg_dialog_ok_btn.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/bg_dialog_ok_btn_red.xml" value="0.1985" />
+        <entry key="app/src/main/res/drawable/blur.xml" value="0.209" />
+        <entry key="app/src/main/res/drawable/bottomsheet_bg.xml" value="0.209" />
+        <entry key="app/src/main/res/drawable/custom_dialog_bg.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/pointer.xml" value="0.209" />
+        <entry key="app/src/main/res/drawable/ripple_anim_circle.xml" value="0.1985" />
+        <entry key="app/src/main/res/drawable/ripple_round.xml" value="0.109" />
+        <entry key="app/src/main/res/drawable/ripple_round_2.xml" value="0.209" />
+        <entry key="app/src/main/res/drawable/round_corner.xml" value="0.1985" />
+        <entry key="app/src/main/res/drawable/single_round_corner.xml" value="0.1985" />
+        <entry key="app/src/main/res/layout/activity_backup_result.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_constraint.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_previous_backup.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_restore_contact.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/bottomsheet_backup.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/bottomsheet_progress_loader.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/bottomsheet_restore.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/custom_dialog_layout.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/dialog_progress_loader.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_restore_file.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_restore_link.xml" value="0.35625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
